@@ -15,7 +15,7 @@ This challenge was a chance to showcase my skills with CSS by creating my profes
 
 ## Important Links
 GitHub Repository
-(https://github.com/nbhsbg53/accessability-refactor)
+(https://github.com/nbhsbg53/Portfolio)
 
 Deployed Application
 (http://127.0.0.1:5501/Portfolio/index.html#)
