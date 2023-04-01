@@ -1,22 +1,111 @@
 <!DOCTYPE html>
-
-<html lang="en" dir="ltr">
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title> Brandon Grady Portfolio </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="C:\Users\nbhsb\Assignments\Portfolio\style.css"
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-<body>
-    <nav>
-        <div class="navbar">
-         <div class="logo"><a href="#">Portfolio.</a></div>
-         <ul class="menu">
-             <li><a href="default.asp">Home</a></li>
-             <li><a href="About.asp">About</a></li>
-             <li><a href="Work.asp">Work</a></li>
-             <li><a href="Contact.asp">Contact</a></li>
-         </ul>
-        </nav>
-</body>    
+
+    <body>
+        <!-- header and nav section start -->
+        <header>
+            <div><h1>Brandon Grady</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="./assets/documents/brandongradyresume.pdf" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero image section start -->
+        <section class="hero">
+            <div>
+                <img src="./assets/images/image0.jpeg" alt="An image of Brandon Grady">
+            </div>
+        
+        </section>
+
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+
+                    <br><br>
+
+                </p>
+            </div>
+        </section>
+
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            
+                    <a href="https://github.com/nbhsbg53/Code-Quiz" target="_blank" class="project code-quiz">
+                        <div class="project-label">
+                            <h3>Code Quiz</h3>
+                            <p>JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/nbhsbg53/Password-Generator" target="_blank" class="project password-generator">
+                        <div class="project-label">
+                            <h3>Password Generator</h3>
+                            <p>JavaScript/CSS/HTML</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/nbhsbg53/The-Weather-Man" target="_blank" class="project the-weather-man">
+                        <div class="project-label">
+                            <h3>The The Weather Man</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="" target="_blank" class="project ">
+                        <div class="project-label">
+                            <h3></h3>
+                            <p>Node.js, Express, Sequelize, Handlebars</p>
+                        </div>
+                    </a>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="mailto:nbhsbg533@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/nbhsbg53" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
